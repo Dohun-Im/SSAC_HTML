@@ -65,6 +65,10 @@ https://www.w3schools.com/html/html_elements.asp
 https://www.w3schools.com/html/html_attributes.asp
 
 
+### HTML Heading
+https://www.w3schools.com/html/html_headings.asp
+
+
 ### HTML Paragragh
 https://www.w3schools.com/html/html_paragraphs.asp
 
@@ -72,8 +76,8 @@ https://www.w3schools.com/html/html_paragraphs.asp
 ### HTML HyperLink
 https://www.w3schools.com/html/html_links.asp
 
-a : anchor(닻)
-href : hypertext reference
+a : Anchor(닻)
+href : Hypertext REFerence
 
 ### HTML URL
 https://www.w3schools.com/html/html_urlencode.asp
@@ -109,6 +113,17 @@ https://www.w3schools.com/html/html_filepaths.asp
 - Ex) 루트 상대 경로 : /html/html_filepaths.asp (같은 경로 내에서는 절대경로처럼 동작함)
 
 
+### HTML Table
+https://www.w3schools.com/html/html_tables.asp
+
+Table Generator - 만들고싶은 표 복붙하거나 요소를 적어주면 알아서 코드 작성해준다!
+https://www.tablesgenerator.com/html_tables
+
+
+### HTML List
+https://www.w3schools.com/html/html_lists.asp
+
+중첩목록(Nested List) : 여러 수준(Level)으로 구성된 목록
 
 
 
