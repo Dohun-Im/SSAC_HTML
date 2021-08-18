@@ -60,3 +60,59 @@ https://www.w3schools.com/html/html_elements.asp
 *h1 : html의 자손요소, body의 자식요소
 ```
 
+
+### HTML Attributes
+https://www.w3schools.com/html/html_attributes.asp
+
+
+### HTML Paragragh
+https://www.w3schools.com/html/html_paragraphs.asp
+
+
+### HTML HyperLink
+https://www.w3schools.com/html/html_links.asp
+
+a : anchor(닻)
+href : hypertext reference
+
+### HTML URL
+https://www.w3schools.com/html/html_urlencode.asp
+
+인터넷 주소
+- IP(Internet Protocol) 주소 : 192.168.0.1 => 기억하기 힘들다는 단점
+- 도메인(Domain Name) 주소 : www.naver.com / co.kr => 기억하기 쉽게 의미있는 용어
+- domain --> DNS(Domain Name Server/System: domain을 ip로 변경시켜줌) --> ip 
+
+URL(Uniform Resource Locator)
+- 자세한 주소(도메인 처럼 대표 주소가 아닌 더 세부적인 주소)
+- 도메인주소 + 해당 페이지 폴더 위치/ 파일 위치
+- 인터넷 주소를 표현하는 가장 큰 범위
+- 도메인, 아이피, 프로토콜 모두 포함
+- 프로토콜 : http, https, ftp ...
+
+
+### HTML File Path
+https://www.w3schools.com/html/html_filepaths.asp
+
+절대 경로
+- 출발 지점에 상관없이 항상 같은 리소스를 찾을 수 있도록 표시하는 주소/경로
+- 장점 : 항상 같은 자원의 위치로 찾아올 수 있음
+- 단점 : 주소 표시 방식/길이가 길다
+- Ex) domain/파일(폴더) 경로 표시 : https://www.w3schools.com/html/html_filepaths.asp
+
+
+싱대 경로
+- 출발 지점을 기준으로 리소스 경로를 표시하는 주소/경로
+- 장점 : 주소 표시 방식/길이가 짧다.
+- 단점 : 기준에 따라서 표시 방식이 매번 달라짐
+- Ex) 파일(폴더) 경로 : html/html_filepaths.asp , ../html/html_filepaths.asp
+- Ex) 루트 상대 경로 : /html/html_filepaths.asp (같은 경로 내에서는 절대경로처럼 동작함)
+
+
+
+
+
+
+
+
+
