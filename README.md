@@ -75,14 +75,6 @@ https://www.w3schools.com/html/html_headings.asp
 
 
 
-
-### HTML Heading
-
-https://www.w3schools.com/html/html_headings.asp
-
-
-
-
 ### HTML Paragragh
 
 https://www.w3schools.com/html/html_paragraphs.asp
@@ -100,8 +92,17 @@ https://www.w3schools.com/html/html_links.asp
 ### HTML URL
 
 https://www.w3schools.com/html/html_urlencode.asp
-- URL(Uniform Resource Locator)
-- 프로토콜 : http, https, ftp ...
+
+인터넷 주소
+> - IP(Internet Protocol) 주소 : 192.168.0.1
+> - 도메인(Domain Name) 주소 : www.naver.com
+> - domain -> DNS(Domain Name Server/System) -> IP
+
+URL(Uniform Resource Locator)
+> - 자세한 주소
+> - 도메인주소 + 해당 페이지 폴더 위치/ 파일 위치
+> - 인터넷 주소를 표현하는 가장 큰 범위
+> - 프로토콜 : http, https, ftp ...
 
 
 
@@ -109,7 +110,18 @@ https://www.w3schools.com/html/html_urlencode.asp
 
 https://www.w3schools.com/html/html_filepaths.asp
 
-- Ex) 루트 상대 경로 : /html/html_filepaths.asp (같은 경로 내에서는 절대경로처럼 동작함)
+절대 경로
+> - 출발 지점에 상관없이 항상 같은 리소스를 찾을 수 있도록 표시하는 주소/경로
+> - 장점 : 항상 같은 자원의 위치로 찾아올 수 있음
+> - 단점 : 주소 표시 길이가 길다
+> - Ex) 도메인주소/파일(폴더) 경로 :  https://www.w3schools.com/html/html_filepaths.asp
+
+상대 경로
+> - 출발 지점을 기준으로 리소스 경로를 표시하는 주소/경로
+> - 장점 : 주소 표시 길이가 상대적으로 짧음
+> - 단점 : 기준에 따라서 표시 방식이 매번 달라짐
+> - Ex) 파일(폴더) 경로 : html/html_filepaths.asp , ../html/html_filepaths.asp 
+> - Ex) 루트 상대 경로 : /html/html_filepaths.asp (같은 경로 내에서는 절대경로처럼 동작함)
 
 
 
@@ -127,6 +139,7 @@ https://www.tablesgenerator.com/html_tables
 ### HTML List
 
 https://www.w3schools.com/html/html_lists.asp
+
 중첩목록(Nested List) : 여러 수준(Level)으로 구성된 목록
 
 
@@ -134,8 +147,8 @@ https://www.w3schools.com/html/html_lists.asp
 ### HTML Images
 
 https://www.w3schools.com/html/html_images.asp
-alt : alternative (그림을 설명해주는 간략한 단어, for 시각장애인분들)
 
+alt : alternative (그림을 설명해주는 간략한 단어, for 시각장애인분들)
 
 
 ### HTML Videos
