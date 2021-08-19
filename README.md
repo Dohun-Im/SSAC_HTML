@@ -18,8 +18,11 @@ HtmlCss : Pascal Case - JavaScript, JAVA, C, C++ (Class)
 
 Front End
 - HTML(class, id) : Kebab case
+
 - File/Folder name : Snake case
+
 - Js : Camel case
+
 - Js Class : Pascal case
 ```
 
@@ -149,6 +152,29 @@ https://www.w3schools.com/html/html5_video.asp
 https://www.w3schools.com/html/html_youtube.asp
 Videos 와 비슷하지만! autoplay mute 등은 source 끝에 ?붙이고 autoplay=1 이런식으로 써주어야!
 
+### HTML Semantics
+
+https://www.w3schools.com/html/html5_semantic_elements.asp
+
+### HTML Block & Inline
+
+https://www.w3schools.com/html/html_blocks.asp
+
+> 포함관계에 대한 특성
+>
+> - block 요소 : 다른 block 요소, inline 요소, 콘텐츠 모두 포함 가능
+> - inline 요소 : 다른 inline 요소, 콘텐츠 는 포함가능/ block 요소는 포함 불가능
+> - 예외 : a 태그 - inline 요소이지만 block 요소도 포함 가능
+
+### HTML Entities
+
+https://www.w3schools.com/html/html_entities.asp
+
+> HTML 마크업 용도로 Fix된 기호는 대체 코드를 사용
+> <, >, &, ", '
+> 공백을 여러 칸 띄울 때 : 대체코드를 사용
+> 브라우저 렌더링용 대체코드 : ex) &copy; => 기업표시
+
 ### HTML Id, Class
 
 https://www.w3schools.com/html/html_id.asp
@@ -164,3 +190,27 @@ https://www.w3schools.com/html/html_classes.asp
 >
 > - 하나의 HRML 문서 내에서 동일한 class 이름을 여러번 사용할 수 있음.
 > - 하나의 HTML Element에 여러가지 class 이름을 붙일 수 있음.
+
+## CSS
+
+### CSS Introduction
+
+https://www.w3schools.com/css/css_intro.asp
+
+### CSS Syntax
+
+https://www.w3schools.com/css/css_syntax.asp
+
+### CSS Selectors
+
+https://www.w3schools.com/css/css_selectors.asp
+
+> Simple Selector 가 가장 중요 (Element, ID, Class)
+
+### CSS How To
+
+https://www.w3schools.com/css/css_howto.asp
+
+> External( by Link )
+> Internal
+> Inline (제일 별로 but Js 에서 css를 제어할 때 사용함)
