@@ -214,3 +214,16 @@ https://www.w3schools.com/css/css_howto.asp
 > External( by Link )
 > Internal
 > Inline (제일 별로 but Js 에서 css를 제어할 때 사용함)
+
+### CSS Text
+
+https://www.w3schools.com/css/css_text.asp
+
+### CSS Font
+
+https://www.w3schools.com/css/css_font.asp
+
+> Web Font 기억!
+>
+> - Google Font : https://fonts.google.com/ (영문, 한글)
+> - Noonnu Font : https://noonnu.cc/ (한글)
