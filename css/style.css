@@ -136,14 +136,15 @@ font-family: 'NanumSquare', sans-serif;
 */
 
 /* page css*/
+.header {
+  height: 100px;
+}
+.gnb-list {
+}
 .gnb-list-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 12px;
-  padding: 10px;
-
-  text-align: right;
-  float: left;
 }
 a.gnb-list-link {
   /*-- 기본 상태를 검정으로 지정하기 위하여 기본 클래스의 상태 지정할 필요있음*/
@@ -155,19 +156,27 @@ a.gnb-list-link:hover {
   color: #008080;
 }
 a.gnb-list-link:active {
-  color: #00ffff;
+  /* 색표현방법 2가지 1. 16진수(#000000) 2. rgb */
+  color: rgb(16, 201, 195);
+  /* rgba 는 투명도 까지 설정(0.0~1.0)*/
+  color: rgba(16, 201, 195, 0.6);
 }
 /* a.gnb-list-link:visited {
   color: #191919;
 } */
-
+.section01 {
+  height: 315px;
+  background-color: #f6f6f6;
+  padding-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+}
 .section-heading {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 38px;
   color: #191919;
-
-  text-align: center;
+  margin-bottom: 35px;
 }
 .paragraph {
   font-family: "NanumSquare", sans-serif;
@@ -175,6 +184,24 @@ a.gnb-list-link:active {
   color: #191919;
   line-height: 1.6;
   font-style: italic;
+}
 
-  text-align: center;
+.figure {
+  width: 340px;
+  height: 300px;
+}
+
+.figure-image {
+  width: 340px;
+  height: 300px;
+}
+.figure-video {
+  width: 340px;
+  height: 300px;
+}
+
+.footer {
+  height: 280px;
+  background-color: #141414;
+  color: #fff;
 }
