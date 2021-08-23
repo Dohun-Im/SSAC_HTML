@@ -138,13 +138,24 @@ font-family: 'NanumSquare', sans-serif;
 /* page css*/
 .header {
   height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
 }
+
 .gnb-list {
+  display: flex;
+  /* justify-content: flex-end; */
 }
 .gnb-list-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 12px;
+  margin-left: 30px;
 }
 a.gnb-list-link {
   /*-- 기본 상태를 검정으로 지정하기 위하여 기본 클래스의 상태 지정할 필요있음*/
@@ -153,17 +164,10 @@ a.gnb-list-link {
 }
 
 a.gnb-list-link:hover {
-  color: #008080;
-}
-a.gnb-list-link:active {
-  /* 색표현방법 2가지 1. 16진수(#000000) 2. rgb */
   color: rgb(16, 201, 195);
-  /* rgba 는 투명도 까지 설정(0.0~1.0)*/
   color: rgba(16, 201, 195, 0.6);
 }
-/* a.gnb-list-link:visited {
-  color: #191919;
-} */
+
 .section01 {
   height: 315px;
   background-color: #f6f6f6;
@@ -185,23 +189,94 @@ a.gnb-list-link:active {
   line-height: 1.6;
   font-style: italic;
 }
+.group {
+  display: flex;
+  justify-content: center;
+}
 
 .figure {
   width: 340px;
   height: 300px;
+  overflow: hidden;
 }
 
 .figure-image {
-  width: 340px;
+  /* width: 340px; */
   height: 300px;
 }
 .figure-video {
-  width: 340px;
+  /* width: 340px; */
   height: 300px;
+
 }
 
 .footer {
   height: 280px;
   background-color: #141414;
   color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 100px 0px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+.copyright-company {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 27px;
+}
+.sitemap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 108px;
+  width: 200px;
+}
+.sitemap-item {
+  margin-bottom: 12px;
+  margin-left: 55px;
+  width: 60px:
+}
+
+@media screen and (max-width:900px){
+  .header {
+    height: 100px;
+    flex-direction:column;
+    padding:0;
+  }
+  .logo{
+    
+    margin-top:0px;
+   
+    /* 인라인 요소에는 텍스트가 아니라도 text-align 적용가능 */
+    text-align: center;
+    box-sizing: border-box;
+
+  }
+  .gnb{
+    margin-top: 15px;
+  }
+  .gnb-list{
+    justify-content:center;
+  }
+  .gnb-list-item:first-child{
+    margin-left:0;
+  }
+  .section-heading{
+    font-size:24px;
+  }
+  .paragraph{
+    padding:0 25px;
+  }
+  .paragraph br{
+    display: none;
+  }
+  .group {
+    flex-direction: column;
+  }
+  .figure{
+    margin:0 auto;
+  }
 }

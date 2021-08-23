@@ -152,7 +152,7 @@ https://www.w3schools.com/html/html5_video.asp
 https://www.w3schools.com/html/html_youtube.asp
 Videos 와 비슷하지만! autoplay mute 등은 source 끝에 ?붙이고 autoplay=1 이런식으로 써주어야!
 
-### HTML Semantics
+### HTML Semantics (영역 구분이 중요)
 
 https://www.w3schools.com/html/html5_semantic_elements.asp
 
@@ -247,6 +247,7 @@ https://www.w3schools.com/css/css_dimension.asp
 >
 > - 블럭 요소 : width는 부모요소에 맞춰져서 채워짐, height는 자식요소에 맞춰짐.
 > - 인라인 요소 : width/height 적용되지 않음. - 레이아웃 구성 용도로 사용하지 않음
+> - 레이아웃 구성은 박스들을 배치하는 것( 세로 배치는 블럭요소의 기본 성질. 따라서 가로 배치가 중요한 이슈 - Flexbox 을 사용한 방식)
 
 > 단위
 >
@@ -261,6 +262,9 @@ https://www.w3schools.com/css/css_padding.asp
 
 https://www.w3schools.com/css/css_border.asp
 
+> 축약표현 : p { border: 5px solid red;}
+> 한 쪽만 지정 : p { border-left: 5px solid red;}
+
 ### CSS Margin
 
 https://www.w3schools.com/css/css_margin.asp
@@ -268,6 +272,8 @@ https://www.w3schools.com/css/css_margin.asp
 ### CSS Background
 
 https://www.w3schools.com/css/css_background.asp
+
+> background color / background image
 
 \*\* CSS 상속
 
@@ -281,3 +287,45 @@ https://www.w3schools.com/css/css_background.asp
 > - 16진수 코드값 : #16진수 숫자 6자리
 > - 10진수 코드값 : rgb(10진수숫자, 10진수숫자, 10진수숫자)
 > - 10진수 코드값 + 투명도 : rgba(10진수숫자, 10진수숫자, 10진수숫자, 0.0 ~ 1.0)
+
+### CSS Flexbox
+
+https://www.w3schools.com/css/css3_flexbox_container.asp
+
+> box 배치 제어를 위한 display:flex 속성 및 배치 관련 속성을 '부모 요소'(not 조상 요소)에 적용함
+
+> flex-direction 속성
+>
+> - 박스 배치 방향 제어 (column, column-reverse, row, row-reverse)
+> - 가로배치 세로배치 모두 제어 가능
+> - 가로배치가 디폴트 값
+
+### 반응형 웹
+
+> 반응형 웹 / 적응형 웹 으로 구분
+> OSMU(One Source Multi Use) 의 여부로 반응형과 적응형을 구분
+> web Front End 에서의 OSMU의 기준은 HTML Source code => Contents
+> 반응형 웹 : HTML 소스코드를 하나만 사용하면서 모바일에서도 다른 디자인으로 작동하도록 함
+> 적응형 웹 : pc용과 모바일용의 HTML 소스코드가 두개로 따로 존재하면서 리다이렉팅을 통하여 접속기기에 따라 HTML 소스코드로 연결시켜줌
+
+### Media Query
+
+> @media 키워드를 사용해서 break point를 설정하고, 그에 따른 독립된 코드 블럭을 실행할 수 있게 하는 것
+> break point (변경점)
+
+```
+Ex) pc 해상도 : 1024px ~ 1920px / mobile 해상도 : 320px ~ 640px
+
+@media screen and (min-width:1024px) and (max-width:1920px) { ~~ }
+@media screen and (min-width:320px) and (max-width:640px) { ~~}
+==> 320~ 640은 mobile / 1024~1920 은 pc
+
+Ex) pc 해상도(기준) : 해상도 설정 하지 않음 / tablet 해상도: ~ 900px / mobile 해상도 : ~ 640px
+
+body{color:red;}
+
+@media screen and (max-width:900px){}
+
+@media screen and (max-width:640px){}
+==> ~640px 은 mobile / 640~900 은 tablet / 900~ pc
+```
