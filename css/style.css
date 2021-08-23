@@ -140,13 +140,14 @@ font-family: 'NanumSquare', sans-serif;
   height: 100px;
   display: flex;
   justify-content: space-between;
-  padding-top: 38px;
-  padding-bottom: 40px;
-  padding-left: 100px;
-  padding-right: 100px;
-  box-sizing: border-box;
+  padding: 0 100px;
 }
-
+.logo {
+  margin-top: 30px;
+}
+.gnb {
+  margin-top: 45px;
+}
 .gnb-list {
   display: flex;
   /* justify-content: flex-end; */
@@ -242,18 +243,16 @@ a.gnb-list-link:hover {
 
 @media screen and (max-width:900px){
   .header {
-    height: 100px;
+    height: auto;
     flex-direction:column;
-    padding:0;
+    padding:0 0 10px 0;
   }
   .logo{
     
-    margin-top:0px;
+    margin-top:10px;
    
     /* 인라인 요소에는 텍스트가 아니라도 text-align 적용가능 */
     text-align: center;
-    box-sizing: border-box;
-
   }
   .gnb{
     margin-top: 15px;
