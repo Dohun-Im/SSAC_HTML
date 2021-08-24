@@ -288,17 +288,20 @@ https://www.w3schools.com/css/css_background.asp
 > - 10진수 코드값 : rgb(10진수숫자, 10진수숫자, 10진수숫자)
 > - 10진수 코드값 + 투명도 : rgba(10진수숫자, 10진수숫자, 10진수숫자, 0.0 ~ 1.0)
 
-### CSS Flexbox
+### CSS Flexbox (페이지 내용 꼼꼼하게!)
 
 https://www.w3schools.com/css/css3_flexbox_container.asp
 
-> box 배치 제어를 위한 display:flex 속성 및 배치 관련 속성을 '부모 요소'(not 조상 요소)에 적용함
+> box 배치 제어를 위한 display:flex 속성 및 배치 관련 속성을 '부모 요소'(not 조상 요소)에 적용함!!
 
 > flex-direction 속성
 >
 > - 박스 배치 방향 제어 (column, column-reverse, row, row-reverse)
 > - 가로배치 세로배치 모두 제어 가능
 > - 가로배치가 디폴트 값
+> - flex-direction을 column으로 바뀌면 justify content 가 원래 가로정렬기준인데 세로로 바뀜
+>   justify-content 와 align-items 의 방향이 flex-direction의 설정에 의해서 뒤바뀔 수 있음
+>   기본적으로 justify-content는 가로방향 정렬 / align-items는 세로방향 정렬
 
 ### 반응형 웹
 
@@ -308,7 +311,13 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 > 반응형 웹 : HTML 소스코드를 하나만 사용하면서 모바일에서도 다른 디자인으로 작동하도록 함
 > 적응형 웹 : pc용과 모바일용의 HTML 소스코드가 두개로 따로 존재하면서 리다이렉팅을 통하여 접속기기에 따라 HTML 소스코드로 연결시켜줌
 
+### RWD Viewport
+
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
 ### Media Query
+
+https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 
 > @media 키워드를 사용해서 break point를 설정하고, 그에 따른 독립된 코드 블럭을 실행할 수 있게 하는 것
 > break point (변경점)
@@ -329,3 +338,32 @@ body{color:red;}
 @media screen and (max-width:640px){}
 ==> ~640px 은 mobile / 640~900 은 tablet / 900~ pc
 ```
+
+\*\* 가운데 배치/정렬 방식
+
+> 가로방향
+>
+> text-align:center - 텍스트, 인라인요소
+> margin-left:auto, margin-right:auto - 가로길이가 정해진 블럭요소
+> justify-content:center - flex 박스 배치
+
+> 세로방향
+> align-items:center - flex 박스 배치
+> line-height : 텍스트
+
+### CSS Display
+
+https://www.w3schools.com/cssref/pr_class_display.asp
+
+### 복합(조합) 선택자
+
+> div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
+> div>p : > - 자식 선택자 : 자식요소만 선택
+
+### 가상 클래스(Pseudo-class)
+
+> Element의 상태 구분
+>
+> - a:link, a:visited, a:hover, a:active
+
+> Element의 특정 요소를 선택

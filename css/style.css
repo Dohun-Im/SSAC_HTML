@@ -190,6 +190,21 @@ a.gnb-list-link:hover {
   line-height: 1.6;
   font-style: italic;
 }
+.more-link{
+  display:inline-block;
+  width: 100px;
+  height: 40px;
+  border: 1px solid violet;
+  line-height: 40px;
+  text-decoration: none;
+  color: #191919;
+  margin-top: 20px;
+}
+.more-link:hover{
+  background:violet;
+  color:#fff;
+}
+
 .group {
   display: flex;
   justify-content: center;
@@ -208,6 +223,8 @@ a.gnb-list-link:hover {
 .figure-video {
   /* width: 340px; */
   height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
