@@ -386,9 +386,13 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 > - remote repsitory를 local repository로 복제
 >
 > staging : commit 할 파일을 선택하는 것 (<-> unstaging)
+>
 > commit : staging 된 파일을 업데이트를 fix(확정) 하는 것
+>
 > push : commit 된 snapshot(업데이트 완료된 상태)을 remote repository에 업로드(업데이트) 하는 것
+>
 > pull : remote repository의 상태를 다운로드하여 local repository의 상태를 업데이트 하는 것(fetch + merge)
+>
 > fetch : remote repository 의 상태를 가져오기만 하는 것
 > merge : 가져온 업데이트 된 상태들을 하나로 합치는 것
 > pull request : 각각 업데이트 된 서로 다른 개발 내용을 remote repository 관리자가 merge 하도록 요청하는 것
