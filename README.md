@@ -364,6 +364,12 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 > Element의 상태 구분
 >
-> - a:link, a:visited, a:hover, a:active
+> - a:link
+> - a:visited
+> - a:hover
+> - a:active
 
 > Element의 특정 요소를 선택
+>
+> - .list-item:first-child(첫번째 요소 선택)
+> - .list-item:last-child(마지막 요소 선택)
