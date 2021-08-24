@@ -300,8 +300,8 @@ https://www.w3schools.com/css/css3_flexbox_container.asp
 > - 가로배치 세로배치 모두 제어 가능
 > - 가로배치가 디폴트 값
 > - flex-direction을 column으로 바뀌면 justify content 가 원래 가로정렬기준인데 세로로 바뀜
->   justify-content 와 align-items 의 방향이 flex-direction의 설정에 의해서 뒤바뀔 수 있음
->   기본적으로 justify-content는 가로방향 정렬 / align-items는 세로방향 정렬
+> - justify-content 와 align-items 의 방향이 flex-direction의 설정에 의해서 뒤바뀔 수 있음
+> - 기본적으로 justify-content는 가로방향 정렬 / align-items는 세로방향 정렬
 
 ### 반응형 웹
 
