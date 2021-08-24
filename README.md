@@ -343,13 +343,14 @@ body{color:red;}
 
 > 가로방향
 >
-> text-align:center - 텍스트, 인라인요소
-> margin-left:auto, margin-right:auto - 가로길이가 정해진 블럭요소
-> justify-content:center - flex 박스 배치
+> - text-align:center - 텍스트, 인라인요소
+> - margin-left:auto, margin-right:auto - 가로길이가 정해진 블럭요소
+> - justify-content:center - flex 박스 배치
 
 > 세로방향
-> align-items:center - flex 박스 배치
-> line-height : 텍스트
+>
+> - align-items:center - flex 박스 배치
+> - line-height : 텍스트
 
 ### CSS Display
 
