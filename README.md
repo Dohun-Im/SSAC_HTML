@@ -360,8 +360,8 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 https://www.w3schools.com/css/css_combinators.asp
 
-> div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
-> div>p : > - 자식 선택자 : 자식요소만 선택
+> - div p : 공백 - 자손 선택자 : 자식요소, 자손요소 모두 선택
+> - div>p : > - 자식 선택자 : 자식요소만 선택
 
 ### 가상 클래스(Pseudo-class)
 
