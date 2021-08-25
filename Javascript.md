@@ -1,3 +1,17 @@
+# Javascript
+
+## 프로그래밍언어 문법 공부
+
+> 데이터(자료형)
+>
+> 변수 - 데이터 타입
+>
+> 명령 구문 - 조건문(분기문), 반복문
+>
+> 함수
+>
+> 객체(object) Class
+
 ### Js Data Type
 
 > 자바스크립트는 대체적으로 데이터 타입을 구분하지 않음
@@ -19,3 +33,35 @@ https://www.w3schools.com/js/js_operators.asp
 > a = a + 1
 > => a+= 1
 > => a++ 모두 같은 의미
+
+### Js Condition
+
+https://www.w3schools.com/js/js_if_else.asp
+
+> 조건문 / 분기문
+> if 구문에 사용되는 condition 식은 결과가 true/false로 나올 수 있는 식
+> Javascript 에서 0 : false, 그 이외의 정수는 true 를 의미
+
+### Js Switch
+
+https://www.w3schools.com/js/js_switch.asp
+
+> expression은 결과가 true/false 의 형태가 아니고 일반 데이터( 숫자, 문자) 형태
+
+### Js Loop For
+
+https://www.w3schools.com/js/js_loop_for.asp
+
+### Js Loop While
+
+https://www.w3schools.com/js/js_loop_while.asp
+
+> 조건문(분기문), 반복문은 프로그램 알고리즘의 논리적인 흐름에 관여하는 명령구문
+
+### Js this
+
+> this 가 사용되는 위치
+>
+> - Object 안에 있는 method에서 사용 : 포함하는 Object를 가리킴
+> - 전역 공간에서 사용 : 전역 객체를 가리킴
+> - 함수 공간에서 사용 : 함수 객체를 가리킴
