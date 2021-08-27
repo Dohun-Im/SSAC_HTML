@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .heading {
+        color: blue;
+      }
+      .font {
+        font-size: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="heading">style Control</h1>
+
+    <button type="button" class="btn">change style</button>
+    <button type="button" class="btn2">add class</button>
+
+    <script>
+      const heading = document.querySelector(".heading");
+      const button = document.querySelector(".btn");
+      const button2 = document.querySelector(".btn2");
+
+      button.addEventListener("click", function () {
+        heading.style.color = "green";
+      });
+
+      button2.addEventListener("click", function () {
+        // add remove toggle(왔다갔다) / css를 앞에 만들어두고 클래스를 지정하는지 여부로 컨트롤
+        heading.classlist.toggle("font");
+      });
+    </script>
+  </body>
+</html>
