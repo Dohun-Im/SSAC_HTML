@@ -158,13 +158,13 @@ font-family: 'NanumSquare', sans-serif;
   font-size: 12px;
   margin-left: 30px;
 }
-a.gnb-list-link {
+.gnb-list-link {
   /*-- 기본 상태를 검정으로 지정하기 위하여 기본 클래스의 상태 지정할 필요있음*/
   color: #191919;
   text-decoration: none;
 }
 
-a.gnb-list-link:hover {
+.gnb-list-link:hover {
   color: rgb(16, 201, 195);
   color: rgba(16, 201, 195, 0.6);
 }
