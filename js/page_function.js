@@ -1,4 +1,4 @@
-const hamburger = document.querySelector(".hambuerger-menu");
+const hamburger = document.querySelector(".hamburger-menu");
 const gnb = document.querySelector(".gnb");
 
 hamburger.addEventListener("click", function () {

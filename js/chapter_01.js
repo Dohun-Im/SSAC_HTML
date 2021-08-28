@@ -23,7 +23,7 @@ console.log(result);
 if (a - 4) {
   console.log("-true");
 } else {
-  console.log("-flase");
+  console.log("-false");
 }
 if (b >= 5 && b <= 10) {
   console.log("&&true");
