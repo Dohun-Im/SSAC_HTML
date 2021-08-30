@@ -74,7 +74,7 @@
 
     <div style="margin-top: 50px;">
       <select class="select">
-        <option value="HTML">언어를 선택해주세요</option>
+        <option>언어를 선택해주세요.</option>
         <option value="HTML">HTML</option>
         <option value="CSS">CSS</option>
         <option value="Javascript">Javascript</option>
@@ -104,8 +104,8 @@
       const btn1 = document.querySelector(".btn1");
 
       btn1.addEventListener("click", function () {
-        let inputValue1 = input1.value;
-        let inputValue2 = input2.value;
+        let inputValue1 = Number(input1.value);
+        let inputValue2 = Number(input2.value);
         let sum = inputValue1 + inputValue2;
         result.value = sum;
       });
@@ -169,7 +169,7 @@
           let value = document.createTextNode(i);
           option.appendChild(value);
           option.setAttribute("value", i);
-          selectMonth.appendChild(option);
+          selectDay.appendChild(option);
         }
       };
 
