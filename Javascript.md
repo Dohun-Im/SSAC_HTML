@@ -179,7 +179,9 @@ https://www.w3schools.com/js/js_htmldom_events.asp
 >
 > - 마우스 : 클릭, 움직임, 휠...
 > - 키보드 : 키 누름...
->   JS Event Listener(Handler)
+
+### JS Event Listener(Handler)
+
 > - addEventListener(이벤트, 함수)
 
 > - - jquery : on()
