@@ -168,3 +168,18 @@ https://www.w3schools.com/js/js_this.asp
 > jquery : javascript 라이브러리
 >
 > - $() == $(document).ready() : HTML Element가 모두 렌더링 된 이후에 실행 (defer을 안써줘도 됨)
+
+### JS Event
+
+https://www.w3schools.com/js/js_htmldom_events.asp
+
+> Event : 상태 변화에 따라 발생되는 신호
+
+> 이벤트 종류
+>
+> - 마우스 : 클릭, 움직임, 휠...
+> - 키보드 : 키 누름...
+>   JS Event Listener(Handler)
+> - addEventListener(이벤트, 함수)
+
+> - - jquery : on()
